@@ -26,25 +26,10 @@ describe('EJERCICIOS EXTRA', function () {
    describe('numberOfCharacters(string)', function () {
       it('Debe retornar un objeto donde cada par clave:valor sea una letra:cantidadDeRepeticiones del string recibido', function () {
          expect(numberOfCharacters('sktpwrroqstkrpwwsqtqopwktsd')).toEqual({
-            s: 4,
-            k: 3,
-            t: 4,
-            p: 3,
-            w: 4,
-            r: 3,
-            o: 2,
-            q: 3,
-            d: 1,
+            d: 1, k: 3, o: 2, p: 3, q: 3, r: 3, s: 4, t: 4
          });
          expect(numberOfCharacters('adsjfdsfsfjsdjfhacabcsbajda')).toEqual({
-            a: 5,
-            b: 2,
-            c: 2,
-            d: 4,
-            f: 4,
-            h: 1,
-            j: 4,
-            s: 5,
+            a: 5, b: 2, c: 2, d: 4, f: 4, h: 1, j: 4 
          });
       });
    });
